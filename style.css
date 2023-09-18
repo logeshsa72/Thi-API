@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    font-family: sans-serif;
+    background: linear-gradient(55deg,#e66465, #9198e5);
+    width: 100%;
+    min-height: 160vh;
+    color:white;
+    border-radius: 5px;
+    
+}
+h1,h6{
+    color: black;
+    text-align: center;
+}
+span{
+    color: rgb(37, 6, 240);
+    text-align: center;
+}
+
+
