@@ -29,6 +29,10 @@ function searchNumber(){
 
     })
     .catch((err)=>{
-        console.log(err)
+        document.getElementById('kural').innerText = "Kaluthakutti Thappa Enter panna Kiss pannituva";
+        document.getElementById('kural1').innerText = '';
+        document.getElementById('exp').innerText = "";
+
+
     })
 }
