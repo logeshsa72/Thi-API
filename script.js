@@ -29,7 +29,7 @@ function searchNumber(){
 
     })
     .catch((err)=>{
-        document.getElementById('kural').innerText = "Kaluthakutti Thappa Enter panna Kiss pannituva";
+        document.getElementById('kural').innerText = "please Enter Proper Value";
         document.getElementById('kural1').innerText = '';
         document.getElementById('exp').innerText = "";
 
