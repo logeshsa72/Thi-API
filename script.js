@@ -29,7 +29,7 @@ function searchNumber(){
 
     })
     .catch((err)=>{
-        document.getElementById('kural').innerText = "please Enter Proper Value";
+        document.getElementById('kural').innerText = "please Enter Proper Value for(1-1330)";
         document.getElementById('kural1').innerText = '';
         document.getElementById('exp').innerText = "";
 
